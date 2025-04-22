@@ -31,5 +31,11 @@
             }
 
         }
+
+        private void btnTask_Click(object sender, EventArgs e)
+        {
+            Taskform taskform = new Taskform();
+            taskform.ShowDialog();
+        }
     }
 }
