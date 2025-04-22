@@ -43,8 +43,7 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TAskForm task = new TAskForm();
-            task.ShowDialog();
+           
             
         }
     }
