@@ -30,7 +30,6 @@
         {
             button2 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            btnTask = new Button();
             SuspendLayout();
             // 
             // button2
@@ -55,22 +54,11 @@
             flowLayoutPanel1.Size = new Size(845, 307);
             flowLayoutPanel1.TabIndex = 2;
             // 
-            // btnTask
-            // 
-            btnTask.Location = new Point(570, 334);
-            btnTask.Name = "btnTask";
-            btnTask.Size = new Size(206, 29);
-            btnTask.TabIndex = 3;
-            btnTask.Text = "Add Task";
-            btnTask.UseVisualStyleBackColor = true;
-            btnTask.Click += button1_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(845, 385);
-            Controls.Add(btnTask);
             Controls.Add(button2);
             Controls.Add(flowLayoutPanel1);
             Margin = new Padding(3, 4, 3, 4);
@@ -86,6 +74,5 @@
 
         private Button button2;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Button btnTask;
     }
 }
