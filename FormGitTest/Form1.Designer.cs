@@ -68,7 +68,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(731, 447);
+            ClientSize = new Size(739, 448);
             Controls.Add(btnTask);
             Controls.Add(button2);
             Controls.Add(flowLayoutPanel1);

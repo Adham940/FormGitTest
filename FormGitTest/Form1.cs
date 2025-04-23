@@ -15,7 +15,7 @@
             frm2.ShowDialog();
 
 
-            Button newButton = new Button();
+            PdfButton newButton = new PdfButton();
             newButton.Text = frm2.ButtonName;
             newButton.Size = new Size(175, 123);
 
@@ -32,8 +32,9 @@
 
         }
 
-        private void btnTask_Click(object sender, EventArgs e)
+        private void btnTask_Click_1(object sender, EventArgs e)
         {
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
