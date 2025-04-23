@@ -61,6 +61,7 @@
             btnTask.TabIndex = 4;
             btnTask.Text = "Add Task";
             btnTask.UseVisualStyleBackColor = true;
+            btnTask.Click += btnTask_Click_1;
             // 
             // Form1
             // 
