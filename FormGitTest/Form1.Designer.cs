@@ -36,10 +36,9 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button2.Location = new Point(782, 325);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(676, 396);
             button2.Name = "button2";
-            button2.Size = new Size(49, 46);
+            button2.Size = new Size(43, 39);
             button2.TabIndex = 1;
             button2.Text = "+";
             button2.UseVisualStyleBackColor = true;
@@ -50,16 +49,16 @@
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.Dock = DockStyle.Top;
             flowLayoutPanel1.Location = new Point(0, 0);
-            flowLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(845, 307);
+            flowLayoutPanel1.Size = new Size(731, 261);
             flowLayoutPanel1.TabIndex = 2;
             // 
             // btnTask
             // 
-            btnTask.Location = new Point(570, 334);
+            btnTask.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            btnTask.Location = new Point(490, 403);
             btnTask.Name = "btnTask";
-            btnTask.Size = new Size(206, 29);
+            btnTask.Size = new Size(180, 25);
             btnTask.TabIndex = 3;
             btnTask.Text = "Add Task";
             btnTask.UseVisualStyleBackColor = true;
@@ -67,13 +66,12 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(845, 385);
+            ClientSize = new Size(731, 447);
             Controls.Add(btnTask);
             Controls.Add(button2);
             Controls.Add(flowLayoutPanel1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
