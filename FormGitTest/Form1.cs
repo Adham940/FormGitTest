@@ -15,7 +15,7 @@
             frm2.ShowDialog();
 
 
-            Button newButton = new Button();
+            PdfButton newButton = new PdfButton();
             newButton.Text = frm2.ButtonName;
             newButton.Size = new Size(175, 123);
 

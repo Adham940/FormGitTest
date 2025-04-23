@@ -30,7 +30,6 @@
         {
             button2 = new Button();
             flowLayoutPanel1 = new FlowLayoutPanel();
-            label1 = new Label();
             SuspendLayout();
             // 
             // button2
@@ -53,21 +52,11 @@
             flowLayoutPanel1.Size = new Size(739, 393);
             flowLayoutPanel1.TabIndex = 2;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(579, 412);
-            label1.Name = "label1";
-            label1.Size = new Size(43, 17);
-            label1.TabIndex = 3;
-            label1.Text = "label1";
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(739, 448);
-            Controls.Add(label1);
             Controls.Add(button2);
             Controls.Add(flowLayoutPanel1);
             Name = "Form1";
@@ -75,13 +64,11 @@
             Text = "Form1";
             KeyDown += Form1_KeyDown;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Button button2;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Label label1;
     }
 }
